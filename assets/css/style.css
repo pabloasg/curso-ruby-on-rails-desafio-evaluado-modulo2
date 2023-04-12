@@ -60,3 +60,18 @@
 i{
     color: white;
 }
+
+.contacto{
+    background-color: black;
+    color: white;
+}
+
+.contacto h2{
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    padding: 20px 0px;
+}

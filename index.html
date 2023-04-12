@@ -27,9 +27,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
               <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link" href="#">Quienes Somos</a>
-              <a class="nav-link" href="#">destacados</a>
-              <a class="nav-link" href="#">Contactos</a>
+              <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+              <a class="nav-link" href="#destacados">destacados</a>
+              <a class="nav-link" href="#contacto">Contactos</a>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
     <!-- fin carusel -->
 
     <!-- inicio quienes somos con tarjetas e iconos -->
-    <section class="quienes-somos d-none d-sm-block">
+    <section id="quienes-somos" class="quienes-somos d-none d-sm-block">
         <h2>¿QUIENÉS SOMOS?</h2>
         <hr style="width:75%; margin:auto">
         <br><br>
@@ -136,7 +136,7 @@
     <!-- fin quienes somos con tarjetas  e iconos-->
 
     <!-- inicio destacados con tarjetas e imagen -->
-    <section class="destacados">
+    <section id="destacados" class="destacados">
         <h2>DESTACADOS</h2>
         <hr style="width:95%; margin:auto">
 
@@ -184,24 +184,54 @@
     </section>
     <!-- fin destacados con tarjetas e imagen -->
 
-                
-
-
-
-       
-        
 
     <!-- inicio contacto, formulario -->
-    <section></section>
+    <section id="contacto" class="contacto">
+        <h2>CONCTACTO</h2>
+        <hr style="width:95%; margin:auto">
+        <div class="container py-3">
+            <form>
+                <div class="form-group py-1">
+                  <label for="exampleInputEmail1">Nombre</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                </div>
+                  
+                <div class="form-group py-1">
+                  <label for="exampleInputPassword1">Asunto</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                </div>
+                
+                <div class="form-group py-1">
+                    <label for="exampleFormControlTextarea1">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                </div>
+                    
+                <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+    </section>
     <!-- fin contacto, formulario -->
 
+
     <!-- inicio footer -->
-    <footer></footer>
+    <footer class="bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 style="text-align: center;">VIAJES CHILE</h2>
+                </div>
+                <div class="col-6" style="text-align: center;">
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-2x px-2"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-2x px-2"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x px-2"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2x px-2"></i></a>
+                </div>
+            </div>
+        </div>
+     
+    </footer>
     <!-- fin footer -->
-
-    
-    
-
 
 
     
