@@ -2,4 +2,22 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Open Sans' 'sans-serif';
+}
+
+
+.icono {
+    width: 2rem;        
+    margin-left: 75px;
+    vertical-align: middle;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    }
+
+.nav-logo h2{
+    color: white;
+    font-size: 15px;
 }
