@@ -21,3 +21,29 @@
     color: white;
     font-size: 15px;
 }
+
+
+.quienes-somos{
+    background-color: black;
+    color: white;
+}
+
+.quienes-somos h2{
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+}
+
+
+
+.icono-card-quienes-somos{
+    text-align: center;
+    display:block;
+}
+
+.card-text{
+    color: white;
+}
+
+i{
+    color: white;
+}
