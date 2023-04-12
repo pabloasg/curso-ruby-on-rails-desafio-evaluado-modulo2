@@ -5,9 +5,7 @@
     font-family: 'Open Sans' 'sans-serif';
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
 
 .icono {
     width: 2rem;        
@@ -60,6 +58,7 @@ html{
 .card-img-top{
     height: 150px;
 }
+
 i{
     color: white;
 }
